@@ -2,91 +2,32 @@
 <html lang="pt-br">
 <head>
 <title>Tabela de planos</title>
-    <style>
-        *{
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            margin: 0 auto;
-        }
-        table, tr, td {
-          border: 5px solid #3A3A3A;
-          
-        }
-        hr{
-            width: 200px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        #fundo{
-            align-self: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-       #planos{
-            size: 50px;
-            color: #FAFAFF;
-            Width: 250px;
-            height:50px;    
-        }
-        #basic{
-            margin: 40px;
-        }
-        #pop1{
-            padding-right: 190px;
-            margin-bottom: -40px ;
-        }
-        #pop {
-            padding-right: 190px;
-            margin-bottom: -20px ;
-        }
-        #lorem1{
-            margin-top: 5px;
-            font-size: 20px;
-            margin-bottom: -25px;
-            padding: 5px;
-        }
-        #lorem{
-            font-size: 20px;
-            margin: -25px;
-            padding: 5px;
-        }
-        #inf1{
-            padding-top: -30px;
-            font-size: 10px;
-        }
-        #inf{
-            font-size: 10px;
-        }
-        #destaque {            
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 50px;
-        }
-        #menor{
-            margin-right: 45px;
-            margin-bottom: 20px;
-        }
-        #buy{
-            size: 50px;
-            color: #FAFAFF;
-            Width: 250px;
-            height:50px;
-        }
-    </style>
+<link rel="stylesheet" href="style.css">
 </head>
 
-<body bgcolor="black">   
-<table id="fundo"  cell padding="20px"  cellmargin="20px" align="center" border="20px" bgcolor="#3A3A3A">
+<body bgcolor="#000000">
+    <table align="Left">
+        <tr>
+            <td id="return" >
+                <a href="index.html">
+                <font color="#FFFFFF">HOME</font>
+                </a>
+            </td>
+        </tr>
+    </table>
+<table id="fundo" bgcolor="#3A3A3A">
 <!-- Planos -->
 <tr>
 <td>
-    <table align="center" Width="900px" >
+    <table Width="900px" >
         <tr align="center">
-            <td id="planos" bgcolor="#F46465">
+            <td class="planos" bgcolor="#F46465">
                 <font id="basic" size="8px" color="#E3F4F3">Basic</font>
             </td>
-            <td id="planos" bgcolor="#EE971C">
+            <td class="planos" bgcolor="#EE971C">
                 <font size="8px" color="#E3F4F3">Premium</font>
             </td>
-            <td id="planos" bgcolor="#569A98">
+            <td class="planos" bgcolor="#569A98">
                 <font id="business" size="8px" color="#E3F4F3">Business</font>
             </td>
         </tr>
@@ -95,48 +36,48 @@
 <!-- Beneficios -->
     <table width="900">
         <tr bgcolor="white" align="center" >
-            <td id="beneficios" >
-                    <img id="pop1" src="/devDocs/images/redv.png" alt="vezinho" />
+            <td class="beneficios" >
+                    <img class="pop1" src="/devDocs/images/redv.png" alt="vezinho" />
                     <font color="#F46465">
-                        <p id="lorem1">LOREM IPSUM</p></br><p id="inf1">dolor sit amet consectetur</p><hr color="#F46465">
-                        <img id="pop" src="/devDocs/images/redv.png" alt="vezinho" />
-                        <p id="lorem">LOREM IPSUM</p></br><p id="inf">dolor sit amet consectetur</p><hr color="#F46465">
-                        <img id="pop" src="/devDocs/images/redv.png" alt="vezinho" />
-                        <p id="lorem">LOREM IPSUM</br></p><br><p id="inf">dolor sit amet consectetur</p><hr color="#F46465">
-                        <img id="pop" src="/devDocs/images/redv.png" alt="vezinho" />
-                        <p id="lorem">LOREM IPSUM</br></p><br><p id="inf">dolor sit amet consectetur</p><hr color="#F46465">
-                        <p id="destaque"><strong>$19.99</strong></p>
-                        <p id="menor" align="right">Per month</p>
+                        <p class="lorem1">LOREM IPSUM</p></br><p class="inf1">dolor sit amet consectetur</p><hr color="#F46465">
+                        <img class="pop" src="/devDocs/images/redv.png" alt="vezinho" />
+                        <p class="lorem">LOREM IPSUM</p></br><p class="inf">dolor sit amet consectetur</p><hr color="#F46465">
+                        <img class="pop" src="/devDocs/images/redv.png" alt="vezinho" />
+                        <p class="lorem">LOREM IPSUM</br></p><br><p class="inf">dolor sit amet consectetur</p><hr color="#F46465">
+                        <img class="pop" src="/devDocs/images/redv.png" alt="vezinho" />
+                        <p class="lorem">LOREM IPSUM</br></p><br><p class="inf">dolor sit amet consectetur</p><hr color="#F46465">
+                        <p class="destaque"><strong>$19.99</strong></p>
+                        <p class="menor" align="right">Per month</p>
                 </font>
             </td>
 
-            <td id="beneficios">
-                <img id="pop1" src="/devDocs/images/yellowv.png" alt="vezinho">
+            <td class="beneficios">
+                <img class="pop1" src="/devDocs/images/yellowv.png" alt="vezinho">
                     <font color="#EE971C">
-                    <p id="lorem1">LOREM IPSUM</p></br><p id="inf1">dolor sit amet consectetur</p><hr color="#EE971C">
-                    <img id="pop" src="/devDocs/images/yellowv.png" alt="vezinho">
-                    <p id="lorem">LOREM IPSUM</p></br><p id="inf">dolor sit amet consectetur</p><hr color="#EE971C">
-                    <img id="pop" src="/devDocs/images/yellowv.png" alt="vezinho">
-                    <p id="lorem">LOREM IPSUM</br></p><br><p id="inf">dolor sit amet consectetur</p><hr color="#EE971C">
-                    <img id="pop" src="/devDocs/images/yellowv.png" alt="vezinho">
-                    <p id="lorem">LOREM IPSUM</br></p><br><p id="inf">dolor sit amet consectetur</p><hr color="#EE971C">
-                    <p id="destaque"><strong>$29.99</strong></p>
-                    <p id="menor" align="right">Per month</p>
+                    <p class="lorem1">LOREM IPSUM</p></br><p class="inf1">dolor sit amet consectetur</p><hr color="#EE971C">
+                    <img class="pop" src="/devDocs/images/yellowv.png" alt="vezinho">
+                    <p class="lorem">LOREM IPSUM</p></br><p class="inf">dolor sit amet consectetur</p><hr color="#EE971C">
+                    <img class="pop" src="/devDocs/images/yellowv.png" alt="vezinho">
+                    <p class="lorem">LOREM IPSUM</br></p><br><p class="inf">dolor sit amet consectetur</p><hr color="#EE971C">
+                    <img class="pop" src="/devDocs/images/yellowv.png" alt="vezinho">
+                    <p class="lorem">LOREM IPSUM</br></p><br><p class="inf">dolor sit amet consectetur</p><hr color="#EE971C">
+                    <p class="destaque"><strong>$29.99</strong></p>
+                    <p class="menor" align="right">Per month</p>
                 </font>
             </td>
 
-            <td id="beneficios">
-                <img id="pop1" src="/devDocs/images/bluev.png" alt="vezinho">
+            <td class="beneficios">
+                <img class="pop1" src="/devDocs/images/bluev.png" alt="vezinho">
                 <font color="#569A98">
-                    <p id="lorem1">LOREM IPSUM</p></br><p id="inf1">dolor sit amet consectetur</p><hr color="#569A98">
-                    <img id="pop" src="/devDocs/images/bluev.png" alt="vezinho">
-                    <p id="lorem">LOREM IPSUM</p></br><p id="inf">dolor sit amet consectetur</p><hr color="#569A98">
-                    <img id="pop" src="/devDocs/images/bluev.png" alt="vezinho">
-                    <p id="lorem">LOREM IPSUM</br></p><br><p id="inf">dolor sit amet consectetur</p><hr color="#569A98">
-                    <img id="pop" src="/devDocs/images/bluev.png" alt="vezinho">
-                    <p id="lorem">LOREM IPSUM</br></p><br><p id="inf">dolor sit amet consectetur</p><hr color="#569A98">
-                    <p id="destaque"><strong>$39.99</strong></p>
-                    <p id="menor" align="right">Per month</p>
+                    <p class="lorem1">LOREM IPSUM</p></br><p class="inf1">dolor sit amet consectetur</p><hr color="#569A98">
+                    <img class="pop" src="/devDocs/images/bluev.png" alt="vezinho">
+                    <p class="lorem">LOREM IPSUM</p></br><p class="inf">dolor sit amet consectetur</p><hr color="#569A98">
+                    <img class="pop" src="/devDocs/images/bluev.png" alt="vezinho">
+                    <p class="lorem">LOREM IPSUM</br></p><br><p class="inf">dolor sit amet consectetur</p><hr color="#569A98">
+                    <img class="pop" src="/devDocs/images/bluev.png" alt="vezinho">
+                    <p class="lorem">LOREM IPSUM</br></p><br><p class="inf">dolor sit amet consectetur</p><hr color="#569A98">
+                    <p class="destaque"><strong>$39.99</strong></p>
+                    <p class="menor" align="right">Per month</p>
                 </font>
             </td>         
         </tr>
@@ -145,13 +86,13 @@
     <!-- comprar-->
     <table align="center" Width="900px" >
         <tr align="center">
-            <td id="buy" bgcolor="#F46465">
+            <td class="buy" bgcolor="#F46465">
                 <font size="8px" color="#E3F4F3">Buy Now</font>
             </td>
-            <td id="buy" bgcolor="#EE971C">
+            <td class="buy" bgcolor="#EE971C">
                 <font size="8px" color="#E3F4F3">Buy Now</font>
             </td>
-            <td id="buy" bgcolor="#569A98">
+            <td class="buy" bgcolor="#569A98">
                 <font size="8px" color="#E3F4F3">Buy Now</font>
             </td>
         </tr>
